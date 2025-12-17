@@ -2,6 +2,8 @@
 
 This guide provides detailed instructions on how to install the IMX283 kernel driver on a Linux system, specifically Raspbian.
 
+Adds readout mode 1C - credit to xanaeth01
+
 ## Prerequisites
 
 Before you begin the installation process, please ensure the following prerequisites are met:
@@ -29,7 +31,7 @@ sudo apt install linux-headers dkms git
 Clone the repository to your local machine and navigate to the cloned directory:
 
 ```bash
-git clone https://github.com/will127534/imx283-v4l2-driver.git
+git clone https://github.com/babyyoda777/imx283-v4l2-driver.git
 cd imx283-v4l2-driver/
 ```
 
